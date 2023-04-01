@@ -1,0 +1,19 @@
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #242424;
+    width: 100%;
+}
+.footer-container ul{
+    margin: 40px 30px 40px 30px;
+    list-style: none;
+}
+.company, .stay-in-touch{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+li{
+    margin-bottom:10px;
+}

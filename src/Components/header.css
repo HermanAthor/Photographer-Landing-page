@@ -1,0 +1,35 @@
+.header-container{
+    color: white;
+    background-image: url("./src/assets/images/img1.jpg");
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 20px 10px;
+    position: fixed;
+    top: 0;
+}
+.header-container ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.header-container ul li{
+    margin-right: 20px;
+    font-size: 20px;
+    
+}
+.header-container ul li:hover{
+    border-bottom: 2px solid white;
+    cursor: pointer;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    padding: 0px 10px 10px 10px;
+
+}
+.header-container ul a{
+    color: inherit;
+    text-decoration: none;
+
+}
